@@ -7,10 +7,12 @@
 	<packaging>war</packaging>
 
 	<parent>
-		<groupId>org.baeldung</groupId>
-		<artifactId>spring-security-oauth</artifactId>
-		<version>1.0.0-SNAPSHOT</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.5.8.RELEASE</version>
+		<relativePath></relativePath>
 	</parent>
+
 
 	<dependencies>
 
